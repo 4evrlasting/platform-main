@@ -32,7 +32,7 @@ function ErrorHandler() {
         walletModal.setVisible(true)
         return
       }
-      toast({ title: '❌ Transaction error', description: error.error?.errorMessage ?? error.message })
+      toast({ title: '❌ Add Sol to your wallet.', description: error.error?.errorMessage ?? error.message })
     },
   )
 

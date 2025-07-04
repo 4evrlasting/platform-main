@@ -1,6 +1,6 @@
 {
-	"name": "Gamba Play",
-	"short_name": "Gamba",
+	"name": "Solos",
+	"short_name": "Solo",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#000000",
