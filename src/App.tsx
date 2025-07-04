@@ -77,7 +77,7 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/:gameId" element={<Game />} />
         </Routes>
-        <h2 style={{ textAlign: 'left' }}>Recent Bets</h2>
+        <h2 style={{ textAlign: 'left' }}>Live Bets</h2>
         <RecentPlays />
       </MainWrapper>
       {ENABLE_TROLLBOX && <TrollBox />}
