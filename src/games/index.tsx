@@ -39,7 +39,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'flip',
     meta: {
-      name: 'Flip',
+      name: 'Coinflip',
       description: `
         Flip offers a straightforward yet thrilling gamble: choose Heads or Tails and double your money or lose it all. This simple, high-stakes game tests your luck and decision-making with every flip of the coin.
       `,
