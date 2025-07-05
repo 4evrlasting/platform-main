@@ -13,7 +13,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 export const EXPLORER_URL = 'https://explorer.gamba.so'
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
+export const PLATFORM_SHARABLE_URL = 'https://www.solosbet.vercel.app'
 
 // Creator fee (in %)
 export const PLATFORM_CREATOR_FEE = 0.02 // 1% !!max 5%!!
