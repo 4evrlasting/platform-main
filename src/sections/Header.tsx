@@ -138,7 +138,7 @@ export default function Header() {
 
           {balance.bonusBalance > 0 && (
             <Bonus onClick={() => setBonusHelp(true)}>
-              ✨ <TokenValue amount={balance.bonusBalance} />
+               <TokenValue amount={balance.bonusBalance} />
             </Bonus>
           )}
 
