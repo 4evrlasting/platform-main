@@ -48,8 +48,8 @@ export const LineLayer1 = styled(StarsLayer)`
   width: 1px;
   height: 12px;
   top: -12px;
-  animation-duration: 75s;
-  opacity: 0;
+  animation-duration: 60s;
+  opacity: 50;
   transition: opacity 2s;
   box-shadow: ${shadowsSmall};
 `
@@ -65,7 +65,7 @@ export const LineLayer2 = styled(StarsLayer)`
   width: 2px;
   height: 25px;
   top: -25px;
-  animation-duration: 6s;
+  animation-duration: 50s;
   opacity: 0;
   transition: opacity 1s;
   box-shadow: ${shadowsMedium};
@@ -82,7 +82,7 @@ export const LineLayer3 = styled(StarsLayer)`
   width: 2px;
   height: 50px;
   top: -50px;
-  animation-duration: 3s;
+  animation-duration: 30s;
   opacity: 0;
   transition: opacity 1s;
   box-shadow: ${shadowsBig};
@@ -96,7 +96,7 @@ export const ScreenWrapper = styled.div`
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: radial-gradient(ellipse at bottom,rgb(0, 0, 0) 0%, #090A0F 100%);
+  background: radial-gradient(ellipse at bottom,rgb(0, 0, 0) 0%,rgb(0, 0, 0) 100%);
 `
 
 export const MultiplierText = styled.div`

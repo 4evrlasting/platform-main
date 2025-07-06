@@ -20,7 +20,7 @@ import { ENABLE_LEADERBOARD } from '../constants'
 const Bonus = styled.button`
   all: unset;
   cursor: pointer;
-  color: #ffe42d;
+  color: #3edf7c;
   border-radius: 3px;
   padding: 2px 10px;
   font-size: 12px;

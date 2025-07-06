@@ -24,7 +24,7 @@ export default function CrashGame() {
     const left = progress * (100 - leftOffset)
     const bottom = Math.pow(progress, 5) * (100 - bottomOffset)
     const rotationProgress = Math.pow(progress, 2.3)
-    const startRotationDeg = 90
+    const startRotationDeg = 80
     const rotation = (1 - rotationProgress) * startRotationDeg
 
     return {
