@@ -59,7 +59,7 @@ export const Splash = styled.div`
 export const Screen = styled.div`
   position: relative;
   flex-grow: 1;
-  background: #0c0c11;
+  background:rgb(0, 0, 0);
   border-radius: 10px;
   overflow: hidden;
   transition: height .2s ease;

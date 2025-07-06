@@ -16,8 +16,8 @@ function CustomError() {
     <>
       <GambaUi.Portal target="error">
         <GambaUi.Responsive>
-          <h1>😭 Oh no!</h1>
-          <p>Something went wrong</p>
+          <h1>❌ Error</h1>
+          <p>Please refresh your browser.</p>
         </GambaUi.Responsive>
       </GambaUi.Portal>
     </>
